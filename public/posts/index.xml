@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on HTTP5214</title>
+    <link>https://http5214.netlify.app/posts/</link>
+    <description>Recent content in Posts on HTTP5214</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-CA</language>
+    <lastBuildDate>Thu, 07 Jan 2021 10:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Version Control &amp; Code Reviews</title>
+      <link>https://http5214.netlify.app/posts/version-control/</link>
+      <pubDate>Thu, 07 Jan 2021 10:47:11 +0100</pubDate>
+      
+      <guid>https://http5214.netlify.app/posts/version-control/</guid>
+      <description>In which we talk about git, git&amp;rsquo;s role in team/deployment workflows, how to perform a code review.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+{{ define "main" }}
+	<header>
+		<div style="position:absolute;font-size: 0;">Apologies if you're navigating this using a screen reader - you may randomly hear facts about cats. This is due to the aria-live region demo in the second half. If it's any consolation - I thought I was going crazy.</div>
+		<div class="hero hero--page" style="background-image:url('/images/{{ .Params.featured_image }}'), linear-gradient(.25turn, #d4e5d7, 40%, #fff2e2)">
+			<h1 class="page-title">{{ .Title }}</h1>
+			<nav class="page-nav">
+				<a class="button small primary page-nav__link" href="/slides/{{ .RelPermalink }}">Slides</a>
+			</nav>
+		</div>
+	</header>
+	<main class="post">
+			{{ .Content }}
+	</main>
+{{ end }}
+{{ define "scripts" }}
+<script src="{{ .Site.BaseURL }}/js/prism.js"></script>
+<script src="{{ .Site.BaseURL }}/js/instantpage-5.1.0.js" type="module" defer></script>
+{{ end }}

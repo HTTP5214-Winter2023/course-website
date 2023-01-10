@@ -1,0 +1,46 @@
+baseURL = "https://http5214.netlify.app/"
+languageCode = "en-CA"
+title = "HTTP5214"
+theme = "blnk"
+[outputFormats]
+  [outputFormats.slide]
+    mediaType = "text/html"
+    name = "slide"
+    path = "slides"
+    isHTML = "true"
+[outputs]
+  home = ["HTML", "slide"]
+  page = ["HTML", "slide"]
+  post = ["HTML", "slide"]
+[markup.goldmark.renderer]
+  unsafe= true
+[params]
+  author = "Simon Borer"
+  description = "HTTP5214"
+  mainSections = ["posts"]
+  logosvgfile = "world"
+  logosvgalt = "Sitting on top of a world"
+# [minify]
+#   disableCSS = false
+#   disableHTML = false
+#   disableJS = false
+#   disableJSON = false
+#   disableSVG = false
+#   disableXML = false
+#   minifyOutput = false
+#   [minify.tdewolff]
+#     [minify.tdewolff.css]
+#       decimals = -1
+#       keepCSS2 = true
+#     [minify.tdewolff.html]
+#       keepConditionalComments = true
+#       keepDefaultAttrVals = true
+#       keepDocumentTags = true
+#       keepEndTags = true
+#       keepWhitespace = false
+#     [minify.tdewolff.js]
+#     [minify.tdewolff.json]
+#     [minify.tdewolff.svg]
+#       decimals = -1
+#     [minify.tdewolff.xml]
+#       keepWhitespace = false
