@@ -92,7 +92,7 @@ toc:
     </svg>
 </section>
 <section class="col">
-    <p><a href="https://en.wikipedia.org/wiki/Kanban_(development)">Kanban</a> is a project management technique often used in software development. It is recognized as an "Agile" development method. Basically, everything "thing" (feature, user story) that you're working on you put on a sticky note, and move it to a different corresponding column whenever the status of the work changes.</p>
+    <p><a href="https://en.wikipedia.org/wiki/Kanban_(development)">Kanban</a> is a project management technique often used in software development. It is recognized as an "Agile" development method. Basically, every "thing" (feature, user story) that you're working on you put on a sticky note, and move it to a different corresponding column whenever the status of the work changes.</p>
     <p>The purpose of this is to make it really easy to <strong>visualize the progress</strong> of the team's work.</p>
 </section>
 <section class="col">
