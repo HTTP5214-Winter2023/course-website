@@ -579,7 +579,7 @@ echo "Passwords saved to $OUTPUTFILE"</code></pre>
 </section>
 <section class="col">
     <p>When someone tags you in their PR, requesting a code review, you are going to look at the files that have changed, and <strong>see if you understand their code</strong>.</p>
-    <p>If you don't understand their code, it's not because you're dumb, it's because they have formatted their code poorly, or haven't written descriptive comments.</p>
+    <p>If you don't understand their code, it's not because you're dumb, it's because they have formatted their code poorly, or haven't written sufficiently descriptive comments.</p>
     <p>If you can't understand their code, let them know where you didn't understand stuff, and reject their pull request. This is not a mean thing to do (unless you're mean about it). It's doing the team a favour by making sure any code that makes it into the main branch is easy to work with.</p>
 </section>
 <section class="col">
