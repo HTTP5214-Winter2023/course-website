@@ -456,9 +456,7 @@ toc:
     <p>Working in the shell is great for creating files and folders, and manipulating their content. For example:</p>
 </section>
 <section class="col">
-    <pre class="small"><code class="language-bash"># delete the file called 'test.html'
-rm test.html && 
-# download this html file from github & save the contents into 
+    <pre class="small"><code class="language-bash"># download this html file from github & save the contents into 
 # a local copy called 'test.html'
 curl https://raw.githubusercontent.com/simonborer/Workshops/main/index.html > test.html && 
 # In 'test.html', replace every instance of the word 'Scrum' 
