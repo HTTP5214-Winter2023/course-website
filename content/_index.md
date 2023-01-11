@@ -157,7 +157,7 @@ toc:
 </section>
 <section class="col" id="sprintPlan">
     <h4>Sprint planning</h4>
-    <p>A 'sprint' is a <strong>period of time</strong> where you're working fairly uninterrupted on a <strong>set amount of work</strong>. Typically this is two weeks (about ten working days), but since we're not working 8 hours a day, five days a week, <a href="#weeklyBreakdown">our sprints</a> will be a little wonky. A 'sprint planning meeting' is just a meeting where you <strong>figure out what work you're going to try and get done</strong> during that period of time. It's also usually when you <strong>create all the sticky notes</strong> that go on the Kanban board.</p>
+    <p>A 'sprint' is a <strong>period of time</strong> where you're working fairly uninterrupted on a <strong>set amount of work</strong>. Typically this is two weeks (about ten working days), but since we're not working 8 hours a day, five days a week, <a href="#weeklyBreakdown">our sprints</a> will be a little wonky. A 'sprint planning meeting' is just a meeting where you <strong>figure out what work you're going to try to get done</strong> during that period of time. It's also usually when you <strong>create all the sticky notes</strong> that go on the Kanban board.</p>
 </section>
 <section class="col" id="retro">
     <h4>Retrospectives</h4>
