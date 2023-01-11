@@ -153,7 +153,7 @@ toc:
 </section>
 <section class="col">
     <p>The point of the stand-up meeting is so that everyone knows what everyone else is working on, and if they can help.</p>
-    <p>Stand-ups are usually a 10-15 minute meeting around the beginning of each day. Since we're not going to be together everyday, we'll do them each class - for the first couple weeks as a whole class, and then in smaller groups.</p>
+    <p>Stand-ups are usually a 10-15 minute meeting around the beginning of each day. Since we're not going to be together every day, we'll do them each class - for the first couple weeks as a whole class, and then in smaller groups.</p>
 </section>
 <section class="col" id="sprintPlan">
     <h4>Sprint planning</h4>
