@@ -51,15 +51,7 @@
         <li><a href="#weeklyBreakdown">Weekly Breakdown</a></li>
         <li><a href="#passingCriteria">Passing Criteria</a></li>
         <li><a href="#potentialProjects">Project Examples</a></li>
-        <li><a href="#git">Git workflow</a></li>
         <li><a href="#review">Review</a></li>
-        <li><a href="#agileTeams">Agile workflow</a>
-            <ul>
-                <li><a href="#standUps">How to run a stand-up</a></li>
-                <li><a href="#sprintPlanning">How to run a sprint planning session</a></li>
-                <li><a href="#retrospectives">How to run a retrospective</a></li>
-            </ul>
-        </li>
     </ul>
 </nav>
 <section id="missionStatement" class="col">
@@ -222,7 +214,6 @@
                         <li>Course description</li>
                         <li>Agile (Kanban/Scrum) introduction</li>
                         <li>Description of <a href="#potentialProjects">potential projects</a></li>
-                        <li>Description of a <a href="#git">simple git workflow</a> with <a href="#codeReview"></a></li>
                         <li>Break into groups to identify development pain-points</li>
                         <li>Research time</li>
                     </ul>
@@ -232,7 +223,9 @@
                 <td style="text-align: left; vertical-align: text-top;">2</td>
                 <td>
                     <ul style="margin-top:0">
-                        <li>Jumbo stand-up</li>
+                        <li>Pain points survey (continued)</li>
+                        <li>Description of how to run agile ceremonies</li>
+                        <li>Description of a <a href="#git">simple git workflow</a> with <a href="#codeReview"></a></li>
                         <li>Research time</li>
                     </ul>
                 </td>
@@ -326,7 +319,6 @@
                     <li>Course description</li>
                     <li>Agile (Kanban/Scrum) introduction</li>
                     <li>Description of <a href="#potentialProjects">potential projects</a></li>
-                    <li>Description of a <a href="#git">simple git workflow</a> with <a href="#codeReview"></a></li>
                     <li>Break into groups to identify development pain-points</li>
                     <li>Research time</li>
                 </ul>
@@ -336,7 +328,9 @@
             <td style="text-align: left; vertical-align: text-top;">2</td>
             <td>
                 <ul style="margin-top:0">
-                    <li>Jumbo stand-up</li>
+                    <li>Pain points survey (continued)</li>
+                    <li>Description of how to run agile ceremonies</li>
+                    <li>Description of a <a href="#git">simple git workflow</a> with <a href="#codeReview"></a></li>
                     <li>Research time</li>
                 </ul>
             </td>
@@ -562,7 +556,11 @@ echo "Passwords saved to $OUTPUTFILE"</code></pre>
     <h3>Tooling integration</h3>
     <p>One thing that makes software development tooling popular (or despised) is the ability to automate it and integrate it with other tools. Want to get a Slack message when someone assigns you a JIRA task? Want to move your Trello card automatically from 'Doing' to 'Code Review' when you submit a pull request in Github? These things are just the tip of the iceberg when it comes to integrating dev team tooling. Think about anything that's annoying or repetitive - any digital 'chore'. There's probably a way to automate it!</p>
 </section>
+<div class="body-spacer"></div>
 <section id="git" class="col">
+    <div class="callout alert">
+        <p><strong>We didn't have time to talk about this the first week, so <a href="/posts/agile-and-git/#git">we're doing it the second week</a>.</strong> Instead, we skipped down to the <a href="#review">review</a>. Agile!</p>
+    </div>
     <h2>How we'll work in git</h2>
     <p><em>Since some of you are new to git, I'm going to try to keep this as simple as possible. If things start to get messy, that's a great thing for us to work out in our sprint retrospective.</em></p>
     <p>On the first day, run this command in your terminal:</p>
@@ -589,7 +587,7 @@ echo "Passwords saved to $OUTPUTFILE"</code></pre>
     <p>Whenever you want to start on something new, switch back to the main branch, and create a new branch from there. (It's possible to branch from a branch, but I don't think you'll want to do that most of the time, unless you're doing some intense collaboration.)</p>
 </section>
 <section class="col">
-    <p>For more information, like how to resolve conflicts and switch branches, I've created <a href="/version-control" target="_blank" rel="noopener noreferrer">a more in-depth git write-up here<span class="show-for-sr"> Opens in a new window</span></a>.</p>
+    <p>For more information, like how to resolve conflicts and switch branches, I've created <a href="/posts/version-control">a more in-depth git write-up here<span class="show-for-sr"> Opens in a new window</span></a>.</p>
 </section>
 <section id="codeReview" class="col">
     <h3>Doing a code review</h3>
@@ -606,9 +604,9 @@ echo "Passwords saved to $OUTPUTFILE"</code></pre>
 </section>
 <section class="col">
     <p>If you <em>can</em> understand their code, make sure there aren't any code conflicts or obvious errors, and that it does something worthwhile. Switch to their branch on your machine and try running their code. Does it work? Great! Does it do something useful? Awesome! Do you have any automated testing set up, and if so, has it passed the tests? Amazing! If it doesn't work, or do something obviously useful, or fails testing, you should reject the pull request (and let them know why), otherwise, you can merge it into the main branch!</p>
-    <p>For more on creating and responding to pull requests, including screenshots of which buttons to press in Github, and how to get and give good feedback, <a href="/version-control/#what-is-code-review" target="_blank" rel="noopener noreferrer">check out my PR write-up here<span class="show-for-sr"> Opens in a new window</span></a>.</p>
+    <p>For more on creating and responding to pull requests, including screenshots of which buttons to press in Github, and how to get and give good feedback, <a href="/posts/version-control/#what-is-code-review">check out my PR write-up here<span class="show-for-sr"> Opens in a new window</span></a>.</p>
 </section>
-<section class="col">
+<section class="col" id="review">
     <h2>Course overview review</h2>
     <p>Okay, here's the plan:</p>
     <ul class="post-only">
@@ -638,7 +636,11 @@ echo "Passwords saved to $OUTPUTFILE"</code></pre>
 <section class="slide-only col"><ol start="10"><li>From there, you can work on improving your solution, or move onto a new one.</li></ol></section>
 <section class="slide-only col"><ol start="11"><li>Every couple weeks, we'll get into our groups and have a discussion about how we're working together. If there's any changes/improvements you can agree on, make it happen.</li></ol></section>
 <section class="slide-only col"><ol start="12"><li>Every couple weeks, we'll get into our groups and have a discussion about what we're going to work on for the new few weeks. This is especially important if you're working on stuff together, but is still helpful just as a way of checking in your work and making commitments.</li></ol></section>
+<div class="body-spacer"></div>
 <section id="agileTeams" class="col">
+    <div class="callout alert">
+        <p><strong>We didn't have time to talk about this the first week, so <a href="/posts/agile-and-git/#agileTeams">we're doing it the second week</a>.</strong> So agile! Much scrum!</p>
+    </div>
     <h2>Team work in Agile</h2>
     <p>In agile development, teams are meant to be "cross-functional", meaning that each team member has an expertise, but also basic skills in all the jobs the team does.</p>
     <p>In the third week, you'll be broken up into individual teams of 5-10 people, and you'll start to run meetings for yourselves. This means one person in your team will need to be the "scrum master" - the person who runs the meeting. Every person on your team will need to lead at least <em>one meeting</em> over the course of the&hellip; course. (Don't worry too much, these meetings include the weekly stand-ups!) You <em>must</em> keep track of who lead which meeting in a document stored in Github. You can also keep track of any additional meeting notes you want to track in this document.</p>
