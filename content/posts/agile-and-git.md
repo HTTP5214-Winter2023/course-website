@@ -77,6 +77,7 @@ summary: "In which we talk about how to run various meetings; git and its role i
             </ul>
         </li>
         <li><a href="#getting-good-feedback">Getting good feedback</a></li>
+        <li><a href="#lets-try">Let's try a workflow</a></li>
     </ul>
 </section>
 <div class="body-spacer"></div>
@@ -667,4 +668,67 @@ git checkout [another-branch-name]</code></pre>
     <li><a href="https://mtlynch.io/code-review-love/" target="_blank" rel="noreferrer">How to Make Your Code Reviewer Fall in Love with You<span class="show-for-sr"> Opens in a new window</span></a>, <em>Michael Lynch</em></li>
 </ul>
 </div>
+<div class="body-spacer"></div>
+<section id="lets-try" class="col">
+    <h2>Let's try this workflow</h2>
+</section>
+<section class="col">
+    <ol>
+        <li>Go to our <a href="https://trello.com/b/39FoPmFO/kanban-board" target="_blank" rel="noopener noreferrer">Kanban board<span class="show-for-sr"> Opens in a new window</span></a></li>
+        <li>Find the card in 'Todo' that says <code>create standup markdown file for @{your user name}</code></li>
+    </ol>
+</section>
+<section class="col">
+    <ol start="3">
+        <li>Click on the card to edit details.
+            <figure>
+                <img src="/images/trello-find-card.png" alt="Find the Trello card">
+            </figure>
+        </li>
+    </ol>
+</section>
+<section class="col">
+    <ol start="4">
+        <li>Assign it to yourself (by clicking <code>members</code>), and add today's date as the due date (by clicking <code>Dates</code>).
+            <figure>
+                <img src="/images/trello-assign.png" alt="Assign the Trello card">
+            </figure>
+        </li>
+    </ol>
+</section>
+<section class="col">
+    <ol start="5">
+        <li>Click the <code>X</code> to close the editing pop-up.</li>
+        <li>Drag the card to the "<code>Doing</code>" column.</li>
+    </ol>
+</section>
+<section class="col">
+    <ol start="7">
+        <li>If you haven't already, clone the "HTTP5214-Winter2023/starter" repo with the command <code>git clone git@github.com:HTTP5214-Winter2023/starter.git</code></li>
+        <li>Create a new branch and check it out.</li>
+    </ol>
+</section>
+<section class="col">
+    <ol start="9">
+        <li>Duplicate the file <code>standup-logs/standup-log.md</code>, and customize the copy so you can add your weekly log to it.</li>
+        <li>Push your changes. (Don't forget at this point you'll need to <a href="#remote-branch">create a remote branch.</a></li>
+        <li>Go to the github repo and <a href="#pr">create a pull request</a>, then request a code review.</li>
+    </ol>
+</section>
+<section class="col">
+    <ol start="12">
+        <li>In Trello, move your card to the <code>Code Review</code> column.</li>
+        <li>If you want to bug your friend even more, you can add them to the card (via <code>Members)</code>, and/or mention them in a comment.
+            <figure>
+                <img src="/images/trello-bug.png" alt="Add code reviewer to Trello card">
+            </figure>
+        </li>
+    </ol>
+</section>
+<section class="col">
+    <ol start="14">
+        <li>When you receive a request for code review, do the review, making sure everything is okay and they've fulfilled the requirements, and then approve it and merge it into the main branch.</li>
+        <li>You can then move the Trello card to <code>Done 🎉</code>.</li>
+    </ol>
+</section>
 <div class="body-spacer"></div>
