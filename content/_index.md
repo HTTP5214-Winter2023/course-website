@@ -6,6 +6,11 @@ summary: ""
 toc: 
 ---
 <div class="body-spacer--small"></div>
+<div class="col callout primary">
+    <p>These are the notes for the first week.</p> 
+    <p>Do you want to <strong><a href="/posts/agile-and-git/">the second week</a></strong>?</p>
+</div>
+<div class="body-spacer--small"></div>
 <h2 class="col">Table of Contents</h2>
 <nav>
     <ul class="toc col">
