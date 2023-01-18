@@ -152,7 +152,7 @@ summary: "In which we talk about how to run various meetings; git and its role i
 <section id="git" class="col">
     <h2>How we'll work in git</h2>
     <p><em>Since some of you are new to git, I'm going to try to keep this as simple as possible. If things start to get messy, that's a great thing for us to work out in our sprint retrospective.</em></p>
-    <p>On the first day, run this command in your terminal:</p>
+    <p>Run this command in your terminal:</p>
     <pre><code class="language-bash">git clone git@github.com:HTTP5214-Winter2023/starter.git</code></pre>
     <p>This will create a copy of the git repo on your computer.</p>
 </section>
@@ -175,9 +175,6 @@ summary: "In which we talk about how to run various meetings; git and its role i
     <p>When your code is ready to join the main branch of the project, you can go to your remote repo and create a pull request, and get someone to code review it. If the code reviewer wants you to make some changes, they can reject your PR (pull request), or, if they're happy, they can merge your code into the main project.</p>
     <p>Whenever you want to start on something new, switch back to the main branch, and create a new branch from there. (It's possible to branch from a branch, but I don't think you'll want to do that most of the time, unless you're doing some intense collaboration.)</p>
 </section>
-<section class="col">
-    <p>For more information, like how to resolve conflicts and switch branches, I've created <a href="/posts/version-control">a more in-depth git write-up here<span class="show-for-sr"> Opens in a new window</span></a>.</p>
-</section>
 <section id="codeReview" class="col">
     <h3>Doing a code review</h3>
     <p>Okay, so as we just mentioned, you have to get a classmate to code review your work. How do you do that?</p>
@@ -193,7 +190,6 @@ summary: "In which we talk about how to run various meetings; git and its role i
 </section>
 <section class="col">
     <p>If you <em>can</em> understand their code, make sure there aren't any code conflicts or obvious errors, and that it does something worthwhile. Switch to their branch on your machine and try running their code. Does it work? Great! Does it do something useful? Awesome! Do you have any automated testing set up, and if so, has it passed the tests? Amazing! If it doesn't work, or do something obviously useful, or fails testing, you should reject the pull request (and let them know why), otherwise, you can merge it into the main branch!</p>
-    <p>For more on creating and responding to pull requests, including screenshots of which buttons to press in Github, and how to get and give good feedback, <a href="/posts/version-control/#what-is-code-review">check out my PR write-up here<span class="show-for-sr"> Opens in a new window</span></a>.</p>
 </section>
 <div class="body-spacer"></div>
 <section id="what-is-version-control" class="col"><img class="body-icon" alt="" src="/images/versions.svg">
@@ -453,7 +449,7 @@ summary: "In which we talk about how to run various meetings; git and its role i
     <p>When your work is ready to be re-integrated with whatever other developers have been working on, you can <strong>merge your work back into the main branch</strong>.</p>
 </section>
 <section class="col">
-    <p>Git branching is often a major part of how a team structures their workflow. There might not be a single "main" branch, but <strong>multiple branches that represent the development, testing and production versions</strong> of the application. Merging into different branches <strong>may trigger automated processes</strong>, like testing (which you've seen with our Github Classroom lab exercises), but also code compilation, optimization, deployments - all kinds of things.</p>
+    <p>Git branching is often a major part of how a team structures their workflow. There might not be a single "main" branch, but <strong>multiple branches that represent the development, testing and production versions</strong> of the application. Merging into different branches <strong>may trigger automated processes</strong>, like testing, code compilation, optimization, deployments - all kinds of things.</p>
     <p>We'll look at how a team might structure their git workflow later in this lesson, but first, let's look at how git branching is done.</p>
 </section>
 <section id="create-branch" class="col">
@@ -512,6 +508,9 @@ git checkout [another-branch-name]</code></pre>
     <li><a href="https://git-scm.com/book/en/v2" target="_blank" rel="noopener noreferrer">Pro Git<span class="show-for-sr"> Opens in a new window</span></a>, <em>Scott Chacon and Ben Straub</em></li>
 </ul>
 </div>
+<section class="col">
+    <p class="callout warning">In the interest of time, I'm not going to go over the next section with the whole class today, as some of you will be working solo on your repositories. That being said, if you're going to collaborate on code, <strong>go over the next section with your collaborators</strong> and agree on what your git workflow will be. This will save you a lot of headaches!</p>
+    </section>
 <div class="body-spacer"></div>
 <section id="how-do-teams-use-git" class="col"><img class="body-icon" alt="" src="/images/collab.svg">
     <h2>How Do Teams Use Git?</h2>
@@ -571,7 +570,7 @@ git checkout [another-branch-name]</code></pre>
 <section id="continuous-deployment" class="col">
     <h4>Continuous Deployment</h4>
     <p>Continuous deployment means that your software is <strong>automatically deployed to production</strong> when it's ready (which is frequently, as continuous integration is a pre-requisite for continuous deployment).</p>
-    <p>The definition of "ready" will depend on the workplace, but one simple example of this is in the <a href="/supplemental/netlify/" target="_blank">instructions for deploying via Netlify<span class="show-for-sr"> Opens in a new window</span></a> that I provided to you wherein <strong>the site is made public anytime a commit</strong> (including a merge) <strong>is made</strong> into the main branch.</p>
+    <p>The definition of "ready" will depend on the workplace, but one simple example of this is in the <a href="/netlify/" target="_blank">instructions for deploying via Netlify<span class="show-for-sr"> Opens in a new window</span></a> wherein <strong>the site is made public anytime a commit</strong> (including a merge) <strong>is made</strong> into the main branch.</p>
 </section>
 <hr>
 <div class="further-reading col">
@@ -640,6 +639,8 @@ git checkout [another-branch-name]</code></pre>
     <h3 class="text-center">Recognize where process needs&nbsp;improvement.</h3>
     <p>Code review should be your team's <strong>last line of defense</strong> before your code heads to the QA team.</p>
     <p>Syntax and style errors should be caught <strong>by the code author with automated testing</strong>. Anything not automated should be clearly described in the documentation. Only when automation and documentation falls short should you be requesting changes in code review.</p>
+    </section>
+<section class="col">
     <p>If you find yourself catching (or, heaven help you, discussing in the comments) things that <em>should</em> be caught by automation or documentation, it may not be an issue that should be resolved in a single code review - it should be <strong>logged and resolved as a team effort</strong>.</p>
 </section>
 <hr>
