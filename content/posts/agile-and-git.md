@@ -331,7 +331,7 @@ summary: "In which we talk about how to run various meetings; git and its role i
 </details>
 </div>
 <section class="slide-only" aria-hidden="true">
-        <h4>Ignoring files and folders</h4>
+    <h4>Ignoring files and folders</h4>
     <p>I want you to <strong>take note of a file</strong> in this repo that you've just downloaded: <code>.gitignore</code>.</p>
     <p>The dot at the beginning of the file name means that it will be "hidden" in most file system viewers, but if you're using a modern code editor, you should be able to see it when you open the repo's folder with your code editor.</p>
 </section>

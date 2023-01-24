@@ -9,6 +9,7 @@ toc:
 <div class="col callout primary">
     <p>These are the notes for the first week.</p> 
     <p>Do you want to <strong><a href="/posts/agile-and-git/">the second week</a></strong>?</p>
+    <p>Or perhaps <strong><a href="/posts/generate-curate/">the third week</a></strong>?</p>
 </div>
 <div class="body-spacer--small"></div>
 <h2 class="col">Table of Contents</h2>
