@@ -313,3 +313,7 @@ dd::before {
         }
     } 
 }
+
+pre.language-plaintext code {
+    white-space: normal;
+}

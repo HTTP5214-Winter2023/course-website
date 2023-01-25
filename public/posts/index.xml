@@ -6,41 +6,32 @@
     <description>Recent content in Posts on HTTP5214</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CA</language>
-    <lastBuildDate>Tue, 21 Jun 2022 08:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 08:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generate &amp; Curate</title>
       <link>https://http5214.netlify.app/posts/generate-curate/</link>
-      <pubDate>Tue, 21 Jun 2022 08:47:11 +0100</pubDate>
+      <pubDate>Sat, 14 Jan 2023 08:47:11 +0100</pubDate>
       
       <guid>https://http5214.netlify.app/posts/generate-curate/</guid>
       <description>This is chaos. I love it.</description>
     </item>
     
     <item>
-      <title>Netlify</title>
-      <link>https://http5214.netlify.app/posts/netlify/</link>
-      <pubDate>Fri, 08 Jan 2021 10:47:11 +0100</pubDate>
-      
-      <guid>https://http5214.netlify.app/posts/netlify/</guid>
-      <description>Getting a static website up</description>
-    </item>
-    
-    <item>
       <title>Agile Ceremonies, Version Control &amp; Code Reviews</title>
       <link>https://http5214.netlify.app/posts/agile-and-git/</link>
-      <pubDate>Thu, 07 Jan 2021 10:47:11 +0100</pubDate>
+      <pubDate>Sat, 07 Jan 2023 10:47:11 +0100</pubDate>
       
       <guid>https://http5214.netlify.app/posts/agile-and-git/</guid>
       <description>In which we talk about how to run various meetings; git and its role in team/deployment workflows; how to perform a code review.</description>
     </item>
     
     <item>
-      <title>Version Control &amp; Code Reviews</title>
-      <link>https://http5214.netlify.app/posts/version-control/</link>
-      <pubDate>Thu, 07 Jan 2021 10:47:11 +0100</pubDate>
+      <title>Introduction</title>
+      <link>https://http5214.netlify.app/posts/introduction/</link>
+      <pubDate>Tue, 21 Jun 2022 08:47:11 +0100</pubDate>
       
-      <guid>https://http5214.netlify.app/posts/version-control/</guid>
-      <description>In which we talk about git, git&amp;rsquo;s role in team/deployment workflows, how to perform a code review.</description>
+      <guid>https://http5214.netlify.app/posts/introduction/</guid>
+      <description>Let&amp;rsquo;s get started, shall we?</description>
     </item>
     
   </channel>

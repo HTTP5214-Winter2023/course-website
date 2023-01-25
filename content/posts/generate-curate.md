@@ -1,44 +1,81 @@
 ---
 title: "Generate & Curate"
-date: 2022-06-21T08:47:11+01:00
+date: 2023-01-14T08:47:11+01:00
 featured_image: science.svg
 summary: "This is chaos. I love it."
 ---
 <div class="body-spacer--small"></div>
-<h2 class="col">Table of Contents</h2>
+<section class="col">
+    <p style="font-size:2rem">Here is our agenda for today:</p>
+</section>
+<section class="col">
 <nav>
     <ul class="toc col">
-        <li><a href="#chaos">Chaos</a></li>
-        <!-- continue pain points -->
-        <!-- intro to git -->
+        <li><a href="#retro">Retrospective meeting</a> // 10:45-10:55</li>
+        <li><a href="#pain">Listing pain points</a> (individual) // 10:55-11:15</li>
+        <li><a href="#team">Get into teams</a> // 11:15-11:30</li>
+        <li><a href="#team-forming">Team forming</a> // 11:30-11:55</li>
+        <li><a href="#sprintPlanning">Sprint planning</a> // 11:55-12:30</li>
     </ul>
 </nav>
+</section>
+<section id="retro" class="col">
+    <h2>Retrospective</h2>
+</section>
+<section class="col">
+    <p>Normally, in a retrospective, you go around the circle and every gets to speak.</p>
+    <p>Since we are <strong>waaaaaaaay</strong> to large of a team by agile standards (somewhere between 5 and 9 times too large), we'll go around the circle starting with me, and we'll only have time for me.</p>
+</section>
 <section id="chaos" class="col">
-    <h2>Chaos</h2>
+    <h3>Chaos</h3>
     <p>This class has been chaotic so far. This has probably been <strong>frustrating</strong> and <strong>confusing</strong> for some of you.</p>
     <p>I try, as a teacher, to only make you frustrated or confused when it is a frustration or confusion that really happens in the workplace. I do this so you can find solutions for it in a safer environment (i.e. the classroom).</p>
 </section>
 <section class="col">
-    <p>This course is about process and strategy. The reason we have process is to create structure and organization, and therefore <strong>avoid confusion</strong>. The reason we have Agile strategies is so that we're not so structured that we can't adapt. This is how we <strong>avoid frustration</strong>.</p>
+    <p>This course is about process and strategy.</p>
+    <p>The reason we have process is to create structure and organization, and therefore <strong>avoid confusion</strong>.</p>
+    <p>The reason we have Agile strategies is so that we're not so structured that we can't adapt. This is how we <strong>avoid frustration</strong>.</p>
 </section>
 <section class="col">
-    <p>Today we will:</p>
+    <p>We began this course with very little structure, guided only by vague requirements, with no team infrastructure.</p>
+    <p>Using agile methodologies, we are gradually going to develop and iterate on methods that will make us increasingly more effective.</p>
+</section>
+<section class="col">
+    <p>We are going to go through cycles of <strong>generation</strong> and <strong>curation</strong> - coming up with new ideas, trying them, and reflecting on how they worked for us.</p>
+    <p>You will find, in smaller groups, that you will each find a uniquely beneficial balance of <strong>structure</strong> and <strong>adaptability</strong>.</p>
+</section>
+<section class="col">
+    <p>All this in mind, here are my start / stop / continue items:</p>
+</section>
+<section class="col">
+    <h3>Start</h3>
     <ul>
-        <li>Clean up Trello</li>
-        <li>Get more git/github training</li>
-        <li>Continue our lists of pain points</li>
-        <li>Get into groups based on solutions you'd like to research</li>
+        <li>Splitting up into small agile teams</li>
+        <li>Having <a href="https://github.com/HTTP5214-Winter2023/starter/blob/main/weekly-todo.md" target="_blank" rel="noopener noreferrer">clearer course-work tasks<span class="show-for-sr"> Opens in a new window</span></a> each week</li>
     </ul>
 </section>
-<div class="col">
-    <ul>
-        <li>Trello clean up</li>
-        <li><a href="https://github.com/HTTP5214-Winter2023/intro-to-git">Git</a></li>
-    </ul>
-</div>
 <section class="col">
+    <h3>Stop</h3>
+    <ul>
+        <li>Trying to work in a single massive git repo (aside from your individual weekly logs)</li>
+        <li>Trying to work on a single Kanban board</li>
+    </ul>
+</section>
+<section class="col">
+    <h3>Continue</h3>
+    <ul>
+        <li>Using <a href="https://discord.gg/cWk8Jp77" target="_blank" rel="noopener noreferrer">Discord<span class="show-for-sr"> Opens in a new window</span></a></li>
+        <li><a href="https://github.com/skills/introduction-to-github" target="_blank" rel="noopener noreferrer">Learning git<span class="show-for-sr"> Opens in a new window</span></a></li>
+    </ul>
+</section>
+<div class="body-spacer"></div>
+<section id="pain" class="col">
+    <h2>Listing pain points</h2>
     <p>Today we will continue to list <strong>pain points</strong>.</p>
     <p>I expect you'll have thought of some new ones now that you're a few weeks into your new classes.</p>
+</section>
+<section class="col">
+    <h3>What are 'pain points' again?</h3>
     <p>As a reminder, pain points are things that are <strong>boring / repetitive</strong> or <strong>hard to remember</strong>. Stuff associated with process and strategy is usually boring and/or hard to remember, but so is a lot of work associated with development - syntax, running tests, boilerplates, server configuration, sourcing placeholder art, etc. etc. etc.</p>
 </section>
 <section class="col">
@@ -52,9 +89,11 @@ summary: "This is chaos. I love it."
     <p>We can also have computers remember things for us in ways that are the most convenient for us - stored on a server that's <strong>accessible to us on all our devices</strong>, and/or on a <strong>collaborative platform</strong>, and/or in a format that's simple and <strong>easy to read</strong> and <strong>integrate with automations</strong>, and/or set up for <strong>automated reminders</strong> (both time- and location-based).</p>
 </section>
 <section class="col">
-    <p>We'll take 10 minutes for you to <strong>individually list</strong> some of your own "pain points". These can be things that are currently painful, or things you know you probably should do, but aren't currently doing because it's too much work. This can be school stuff, or any tasks outside of school (that maybe you've neglected because you're schooling so hard).</p>
+    <p>We'll take 20 minutes for you to <strong>individually list</strong> some of your own "pain points". These can be things that are currently painful, or things you know you probably should do, but aren't currently doing because it's too much work. This can be school stuff (from any course, past, present or future), or any tasks outside of school (that maybe you've neglected because you're schooling so hard).</p>
+</section>
+<section class="col">
     <p class="callout primary">Here are some of the <a href="https://raw.githubusercontent.com/HTTP5214-Winter2023/starter/main/pain-points.md" target="_blank" rel="noopener noreferrer">pain points we listed<span class="show-for-sr"> Opens in a new window</span></a> the first week.</p>
-    <p>Once you have some pain points listed, we'll have 20 minutes for you to <strong>write out the steps</strong> involved in each painful task. Take note of <strong>anything that might change the next time</strong> you do this task. Take note of anything that <strong>you'd like to improve</strong> about how this task gets done. For each step, it may help you to mark it either (A) for action, or (M) for memory.</p>
+    <p>Once you have some pain points listed, <strong>write out the steps</strong> involved in each painful task. Take note of <strong>anything that might change the next time</strong> you do this task. Take note of anything that <strong>you'd like to improve</strong> about how this task gets done.</p>
 </section>
 <section class="col">
     <p>Example:</p>
@@ -75,6 +114,78 @@ Description: I can manually put due dates for assignments in my google calendar,
 2. Manually add to Google Calendar</code></pre>
     <pre class="language-plaintext"><code>Note: I wish I could see how much time each task will take, and how many marks each task is worth. That way I'd know what to prioritize.</code></pre>
 </section>
+<section class="col">
+    <p>Okay, go for it:</p>
+    <ul>
+        <li>Write out your pain points</li>
+        <li>Write out the steps involved in each pain point</li>
+        <li>Take note of anything that might change the next time you do this task</li>
+        <li>Take note of anything you'd like to improve about how this task gets done</li>
+    </ul>
+</section>
+<div class="body-spacer"></div>
+<section class="col" id="team">
+    <h2>Let's get ourselves into teams</h2>
+</section>
+<section class="col">
+    <p>Take a moment to reflect on your pain points. Choose one that feels like "low-hanging fruit" (i.e. an easy one to start with).</p>
+</section>
+<section class="col">
+    <p>Which of the following solutions might be a good way to start thinking about addressing it?</p>
+    <ul>
+        <li><strong>Documentation</strong> (collaborative 'wiki'-style note-keeping in plain text/markdown)</li>
+        <li><strong>Workflow automation</strong> (Github Actions, chaining together tools, testing, linting, etc.)</li>
+        <li><strong>Boilerplating</strong> (creating reproducible "start points" for coding projects)</li>
+        <li><strong>Task automation</strong> (having your own computer perform simple, repetitive tasks via shell scripting, Python, or similar)</li>
+        <li><strong>Something else</strong> - literally any other strategy (that can ultimately be captured in Github).</li>
+    </ul>
+</section>
+<section class="col">
+    <p>Based on your answer, go to our Discord server, and join one of the five <code>solution-*</code> channels.</p>
+    <p>The people in that channel can form a team with you!</p>
+    <p><strong>Teams must be >=5 and <10 people</strong>. It's up to you to decide who will be in your team.</p>
+    <p>Once we have our teams, we can begin the "Team forming" process.</p>
+</section>
+<div class="body-spacer"></div>
+<section class="col" id="team-forming">
+    <h2>Team forming</h2>
+    <p>In your team, discuss, reach agreement on, and document the following:</p>
+    <ul>
+        <li>Our team name is&hellip;</li>
+        <li>Our team will communicate* via&hellip;</li>
+        <li>Our team will track our features** using&hellip;</li>
+    </ul>
+</section>
+<section class="col">
+    <p><small>* You don't have to use Discord, but the course will continue to do so - oh, and I've given everyone the ability to create channels now, so you can totally have a channel just for your team.</small></p>
+    <p><small>** You don't have to use Trello, but your team can totally create a Kanban board just for your own use.</small></p>
+    <p>And remember - whatever you decide, you can <strong>totally change later</strong>. There will be plenty of opportunities to reflect on and update your process!</p>
+</section>
+<div class="body-spacer"></div>
+<section class="col" id="sprintPlanning">
+    <h2>Sprint Planning</h2>
+    <p>Now that we're in teams, we can start planning our first sprint.</p>
+    <p>Since we only work on this class while we're in this class, you'll need to base your sprint planning on the time we have available to us in this "sprint". This sprint will consist of <strong>one hour of working time next week, and 45 minutes the following week</strong>.</p>
+</section>
+<section class="col">
+    <p>You will need to plan to deliver the following in your next sprint:</p>
+    <ul>
+        <li>Any <strong>team administrative work</strong>, like setting up communication channels or feature tracking</li>
+        <li><strong>Researching solutions</strong> (before you start actually coding/creating them)</li>
+    </ul>
+</section>
+<section class="col">
+    <p>Now it's time to have your first sprint planning session!</p>
+    <p>In your groups&hellip;</p>
+    <ol>
+        <li>Choose a scrum master</li>
+        <li>Decide who will take notes</li>
+        <li>Decide what tasks you can accomplish this sprint</li>
+        <li>Make a note of each task</li>
+        <li>Assign each task to an individual</li>
+    </ol>
+</section>
+<!--
 <section>
     <p>After listing out your pain points, we'll get into groups based on solutions you'd like to explore for these pain points.</p>
     <ul>
@@ -84,4 +195,4 @@ Description: I can manually put due dates for assignments in my google calendar,
         <li>Task automation (having your own computer perform simple, repetitive tasks via shell scripting, Python, or similar)</li>
         <li>Something else - anything that at least 5 people would like to explore together (that can ultimately be captured in Github).</li>
     </ul>
-</section>
+</section> -->

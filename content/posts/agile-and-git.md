@@ -1,5 +1,5 @@
 ---
-date: 2021-01-07T10:47:11+01:00
+date: 2023-01-07T10:47:11+01:00
 featured_image: git.svg
 title: "Agile Ceremonies, Version Control & Code Reviews"
 summary: "In which we talk about how to run various meetings; git and its role in team/deployment workflows; how to perform a code review."
@@ -519,7 +519,7 @@ git checkout [another-branch-name]</code></pre>
 <div class="body-spacer--small"></div>
 <section id="git-workflows" class="col">
     <h3 class="text-center">Git workflows</h3>
-    <p>A git workflow (or "branching model") is a <a href="/posts/methodologies-and-design-patterns/#why" target="_blank">team standard<span class="show-for-sr"> Opens in a new window</span></a>. Like other team standards, the most important thing is <strong>consistency</strong>.</p>
+    <p>A git workflow (or "branching model") is a team standard<span class="show-for-sr"> Opens in a new window</span>. Like other team standards, the most important thing is <strong>consistency</strong>.</p>
     <p>There are <a href="http://scottchacon.com/2011/08/31/github-flow.html" target="_blank" rel="noopener noreferrer">many<span class="show-for-sr"> Opens in a new window</span></a> <a href="https://www.endoflineblog.com/oneflow-a-git-branching-model-and-workflow" target="_blank" rel="noopener noreferrer">branching<span class="show-for-sr"> Opens in a new window</span></a> <a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="noopener noreferrer">models<span class="show-for-sr"> Opens in a new window</span></a> out there.</p>
     <p>I'm going to show you one today - GitLab Flow. It's one of the <strong>best-known git workflows</strong>, but expect different teams to use alternatives, or to have their own modified version of this one.</p>
 </section>
