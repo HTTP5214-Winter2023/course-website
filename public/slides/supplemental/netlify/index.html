@@ -13,7 +13,7 @@
 	<meta name="author" content="Simon Borer">
 
 
-<link rel="stylesheet" href="https://http5214.netlify.app/sass/slides/main-slides.min.bc8381dcef719dd1055a5053c8a1a1540e76ccf7cc23ae7f81cec212fe7a4946.css">
+<link rel="stylesheet" href="https://http5214.netlify.app/sass/slides/main-slides.min.e06c323daf509dfa6d739829f09c558acb5e33a22e61e808ba7f7a8d51016bc2.css">
 
 </head>
 <body>
@@ -212,15 +212,17 @@
 <script type="text/javascript" src="/js/reveal.js"></script>
 <script>
 Reveal.initialize({
-  dependencies: [{ src: '/js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-    {
-      src: '/js/reveal-a11y.js',
-      async: true,
-      condition: function() {
-        return !!document.body.classList;
-      }
+hash: true, 
+history: true,
+dependencies: [{ src: '/js/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+  {
+    src: '/js/reveal-a11y.js',
+    async: true,
+    condition: function() {
+      return !!document.body.classList;
     }
-  ]
+  }
+]
 });
 </script>
 
