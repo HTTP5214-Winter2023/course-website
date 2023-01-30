@@ -6,7 +6,16 @@
     <description>Recent content in Posts on HTTP5214</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CA</language>
-    <lastBuildDate>Sat, 14 Jan 2023 08:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Jan 2023 10:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check in, stand up, git training, and team time!</title>
+      <link>https://http5214.netlify.app/posts/more-git-training/</link>
+      <pubDate>Sun, 15 Jan 2023 10:47:11 +0100</pubDate>
+      
+      <guid>https://http5214.netlify.app/posts/more-git-training/</guid>
+      <description>In which we start actual research.</description>
+    </item>
+    
     <item>
       <title>Generate &amp; Curate</title>
       <link>https://http5214.netlify.app/posts/generate-curate/</link>

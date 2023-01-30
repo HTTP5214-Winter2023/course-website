@@ -61,7 +61,7 @@ summary: "This is chaos. I love it."
         <li>Trying to work on a single Kanban board</li>
     </ul>
 </section>
-<section class="col">
+<section class="col" id="continue">
     <h3>Continue</h3>
     <ul>
         <li>Using <a href="https://discord.gg/cWk8Jp77" target="_blank" rel="noopener noreferrer">Discord<span class="show-for-sr"> Opens in a new window</span></a></li>
