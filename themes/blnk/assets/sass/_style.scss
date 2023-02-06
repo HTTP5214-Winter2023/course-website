@@ -608,6 +608,9 @@ ol.callout-list {
     padding-right: 0.25rem;
 }
 
+code[class*=language-] kbd, pre[class*=language-] kbd {
+    color: #000000;
+}
 pre>code {
     border: none;
     padding-left: 0;
