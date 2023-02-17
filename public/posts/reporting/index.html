@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<title>Generating reports</title>
+	<meta name="description" content="HTTP5214">
+	<meta name="author" content="Simon Borer">
+
+		
+		<link rel="stylesheet" href="https://http5214.netlify.app/sass/main.min.b7ed878a5e8328d1993a29384348606195160934de0b0102a297c92dea211d44.css">
+	
+</head>
+<body>
+	
+	<main class="post">
+		<article>
+			<div class="hero hero--page" style="background-image:url('/images/report-to-me.svg'), linear-gradient(.25turn, #d4e5d7, 40%, #fff2e2)">
+				<h1 class="page-title">Generating reports</h1>
+				<nav class="page-nav">
+					<a class="button small primary page-nav__link" href="/slides//posts/reporting/">Slides</a>
+				</nav>
+			</div>
+			<div class="grid-container">
+				<div class="grid-x">
+					<div class="cell medium-6 medium-offset-3 small-12"><div class="body-spacer--small"></div>
+<section class="col">
+    <p style="font-size:2rem">Here is our agenda for today:</p>
+</section>
+<section class="col">
+    <nav>
+        <ul class="toc col">
+            <li><a href="#standup">Stand-up</a> // 10:55-11:10</li>
+        </ul>
+    </nav>
+</section>
+<div class="body-spacer"></div>
+<section class="col">
+    <p>This course only has two grades: SAT (satisfactory, a.k.a. 'pass') and UNSAT (unsatisfactory, a.k.a. 'fail').</p>
+    <p>At the end of the course, you'll be assigned a grade based on the <a href="/posts/introduction#passingCriteria">criteria we've discussed</a>, however much of that is dependant on work you'll do in the second half of the semester.</p>
+</section>
+<section class="col">
+    <p>For the time being, I'd like for you to generate a report.</p>
+    <p>In agile, a report on a team's work might be to measure 'velocity' - the amount of work the team gets done, divided by the amount of time the team worked.</p>
+</section>
+<section class="col">
+    <p><strong><em>However</em></strong></p>
+    <p>&hellip;based on meeting with your teams last week, some of you have not started feature tracking, and if there are no features, there is no tracking the amount of work being done.</p>
+</section>
+<section class="col">
+    <p><strong><em>So instead</em></strong></p>
+    <p>&hellip;I need each of you individually to write me a report containing information on each of the three weeks you've been in your teams, in the following format:</p>
+</section>
+<hr>
+<section class="col">
+    <h3><code class="language-javascript">{Date}</code></h3>
+    <ul>
+        <li>This week I worked on <code class="language-javascript">{work}</code>.</li>
+        <li>Here is the link to that work: <code class="language-javascript">{link}</code>.</li>
+    </ul>
+    <p><em>(Repeat for each unit of work, e.g. Kanban note.)</em></p>
+    <p>Our team had the following meetings:</p>
+    <ul>
+        <li><code class="language-javascript">{Meeting name}</code>,</li>
+        <li>lead by <code class="language-javascript">{Scrum master}</code>,</li>
+        <li>documented at <code class="language-javascript">{Link to notes}</code>.</li>
+    </ul>
+    <p><em>(Repeat for each meeting you had that week.)</em></p>
+</section>
+<section class="col">
+    <p><strong>I expect detail.</strong> If you did not capture your research in your notes, you will need to describe it to me.</p>
+</section>
+<section class="col">
+    <h3>Not enough detail</h3>
+    <p><em>I researched Python.</em></p>
+    <h3>Enough detail</h3>
+    <p><small>I first researched the Spotify API and identified the endpoints that would be useful for our application. I then started to diagram a backend for the application using Python and Flask. This involved setting up a connection to the Spotify API, and then testing functions to retrieve data from the API based on user inputs.</small></p>
+    <p><small>Next, I created a paper and pencil wireframe of the frontend of the application. I designed a user interface that allows users to enter their music preferences for genre, tempo, and mood.</small></p>
+</section>
+<hr>
+<section class="col">
+    <p>If your team has been diligent in keeping notes, great! Feel free to copy and paste if it contains all of this information.</p><p>If your team did not keep good notes, you will need to reconstruct your work together from the best of your recollection.</p>
+    <p>If you were late joining a team, use their meeting notes anyway, and just note that you were not in attendance.</p>
+</section>
+<section class="col">
+    <p>To link to a document in github, go to the document, and either click on the button that says, "raw" and copy the url from the address bar, or simply right-click and choose "Copy Link Address" from the context menu.</p>
+    <img src="/images/github-raw.png" alt="The location of the 'raw' button in github">
+</section>
+<section class="col">
+    <p>Submit these reports to me via Blackboard in Markdown format (you may have to compress your .md file to upload). It is due at the latest on Friday at 5pm.</p>
+    <p>I'm moving your Sprint Planning and Retrospective meetings to after the reading week so that you'll have time to complete these reports in class after your stand-up. The rest of the class time can be spent working on your projects.</p>
+</section>
+<div class="body-spacer"></div>
+<section class="col" id="standup">
+    <h2>Stand-up</h2>
+</section>
+<section class="col">
+    <ul>
+        <li>Choose a <strong>scrum master</strong></li>
+        <li><em>Scrum master</em>: <strong>take notes</strong> (or have someone do it)</li>
+        <li><strong>Go around the circle</strong> and say&hellip;
+            <ul>
+                <li>what you <strong>did</strong>,</li>
+                <li>what you're <strong>gonna do</strong>,</li>
+                <li><strong>blockers</strong></li>
+            </ul>
+            &hellip; while <strong>updating your feature tracking</strong>, and<br><strong>addressing blockers</strong>.
+        </li>
+    </ul>
+</section>
+<div class="body-spacer"></div></div>
+									
+				</div>
+			</div>
+		</article>
+	</main>
+
+	
+<script src="https://http5214.netlify.app//js/prism.js"></script>
+<script src="https://http5214.netlify.app//js/instantpage-5.1.0.js" type="module" defer></script>
+
+</body>
+</html>

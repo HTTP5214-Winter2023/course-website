@@ -6,7 +6,25 @@
     <description>Recent content in Posts on HTTP5214</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CA</language>
-    <lastBuildDate>Mon, 16 Jan 2023 10:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Feb 2023 10:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generating reports</title>
+      <link>https://http5214.netlify.app/posts/reporting/</link>
+      <pubDate>Wed, 08 Feb 2023 10:47:11 +0100</pubDate>
+      
+      <guid>https://http5214.netlify.app/posts/reporting/</guid>
+      <description>In which you tell me how you&amp;rsquo;re getting on with it.</description>
+    </item>
+    
+    <item>
+      <title>Meeting with your teams</title>
+      <link>https://http5214.netlify.app/posts/team-meetings/</link>
+      <pubDate>Wed, 08 Feb 2023 10:47:11 +0100</pubDate>
+      
+      <guid>https://http5214.netlify.app/posts/team-meetings/</guid>
+      <description>In which I let you get on with it (and see how you&amp;rsquo;re getting on).</description>
+    </item>
+    
     <item>
       <title>Mostly meetings, git workflow, tiny demos</title>
       <link>https://http5214.netlify.app/posts/tiny-demos/</link>
