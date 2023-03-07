@@ -6,7 +6,16 @@
     <description>Recent content in Posts on HTTP5214</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CA</language>
-    <lastBuildDate>Wed, 08 Feb 2023 10:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 10:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Looking back on the first half of the term</title>
+      <link>https://http5214.netlify.app/posts/post-mid-term/</link>
+      <pubDate>Wed, 01 Mar 2023 10:47:11 +0100</pubDate>
+      
+      <guid>https://http5214.netlify.app/posts/post-mid-term/</guid>
+      <description>In which we figure out where we go from here.</description>
+    </item>
+    
     <item>
       <title>Generating reports</title>
       <link>https://http5214.netlify.app/posts/reporting/</link>
