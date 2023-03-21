@@ -52,8 +52,8 @@ summary: "In which we get some serious work done."
 	<dd>A description of the user journey from the first click to the user achieving their goal, described in the steps through the user interface that a user takes to achieve that goal (i.e. "click this button", "navigate to this URL", "enter your first name in the `first name` form field", etc.)</dd>
 	<dt><strong>Participants</strong></dt>
 	<dd>Five people who have agreed to be the users who will use your product so you can test that product.</dd>
-<dt><strong>Instructions</strong></dt> 
-<dd>What do you tell you participants before you start testing? How will you ask them for their feedback afterwards? Write all this down. A script is best, but bullet points are required.</dd>
-<dt><strong>Likes / Dislikes / Recommendations</strong></dt><dd>There are different types of feedback you could collect from your users, and if you would prefer to use, say, a System Usability Scale, that's totally fine. The <em>bare minimum</em> format for collecting user feedback is to ask for their likes, their dislikes and their recommendations.</dd>
+    <dt><strong>Instructions</strong></dt> 
+    <dd>What do you tell you participants before you start testing? How will you ask them for their feedback afterwards? Write all this down. A script is best, but bullet points are required.</dd>
+    <dt><strong>Likes / Dislikes / Recommendations</strong></dt><dd>There are different types of feedback you could collect from your users, and if you would prefer to use, say, a System Usability Scale, that's totally fine. The <em>bare minimum</em> format for collecting user feedback is to ask for their likes, their dislikes and their recommendations.</dd>
 </dl>
 </div>

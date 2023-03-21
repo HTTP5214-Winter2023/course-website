@@ -6,7 +6,16 @@
     <description>Recent content in Posts on HTTP5214</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CA</language>
-    <lastBuildDate>Mon, 13 Mar 2023 10:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Mar 2023 10:47:11 +0100</lastBuildDate><atom:link href="https://http5214.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test time</title>
+      <link>https://http5214.netlify.app/posts/test-time/</link>
+      <pubDate>Tue, 14 Mar 2023 10:47:11 +0100</pubDate>
+      
+      <guid>https://http5214.netlify.app/posts/test-time/</guid>
+      <description>In which we get some serious test done.</description>
+    </item>
+    
     <item>
       <title>Power through</title>
       <link>https://http5214.netlify.app/posts/team-time-power-go/</link>
