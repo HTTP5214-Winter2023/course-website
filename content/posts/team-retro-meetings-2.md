@@ -2,7 +2,7 @@
 date: 2023-04-05T10:47:11+01:00
 featured_image: merge-reverse.svg
 title: "Meeting with your teams, like last week"
-summary: "In which you get on with it (and I continue seein how you're getting on)."
+summary: "In which you get on with it (and I continue to see how you're getting on)."
 ---
 <div class="body-spacer--small"></div>
 <section class="col">
