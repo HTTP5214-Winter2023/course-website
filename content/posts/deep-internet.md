@@ -39,10 +39,10 @@ summary: "In which we figure out where we go next..."
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.crowdstrike.com/cybersecurity-101/the-dark-web-explained/deep-web-vs-dark-web/#:~:text=Simply%20put%2C%20the%20deep%20web,to%20provide%20even%20greater%20security.">The deep, and dark, web<span class="show-for-sr"> Opens in a new window</span></a></li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://www.wikihow.com/Watch-Star-Wars-on-Command-Prompt#:~:text=On%20Windows%2C%20open%20the%20Command,nl%20and%20pressing%20%E2%86%B5%20Enter%20.">Telnet<span class="show-for-sr"> Opens in a new window</span></a></li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://web.archive.org/web/20210903205100/http://youfellasleepwatchingadvd.com/">The Wayback Machine / You Fell Asleep Watching a DVD<span class="show-for-sr"> Opens in a new window</span></a></li>
-    <li><a href="https://homestarrunner.com/sbemails">Flash as culture</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://homestarrunner.com/sbemails">Flash as culture<span class="show-for-sr"> Opens in a new window</span></a></a></li>
 </ul>
 </section>
 <section class="col">
     <p>Oh, and if any of you need <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CrMLHiqpCsJ/">free stuff<span class="show-for-sr"> Opens in a new window</span></a>&hellip;</p>
 </section>
-<a href="href" target="_blank" rel="noopener noreferrer">text<span class="show-for-sr"> Opens in a new window</span></a>
+<div class="body-spacer"></div>
