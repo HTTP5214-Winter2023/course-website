@@ -1190,3 +1190,16 @@ nav .toc {
 pre.language-plaintext code {
     white-space: normal;
 }
+
+.side-by {
+    & img {
+        display: inline-block;
+        margin-right: 1rem;
+        max-width: calc(50% - 1rem);
+        margin-bottom: .25rem;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+---
+date: 2023-04-18T10:47:11+01:00
+featured_image: summer.svg
+title: "Looking back, and forward"
+summary: "In which we figure out where we go next..."
+---
+<div class="body-spacer--small"></div>
+<section class="col">
+    <p>In this course, we've tried to better understand how we work together to build stuff.</p>
+    <p>The "stuff" has been a "MacGuffin".</p>
+</section>
+<section class="col">
+    <figure>
+        <img src="/images/maltese-falcon.jpeg" alt="Humphrey Bogart with the Maltese Falcon">
+        <figcaption>One of the more famous MacGuffins</figcaption>
+    </figure>
+</section>
+<section class="col">
+    <p>"MacGuffin" is a term coined by Alfred Hitchcock to mean a 'thing' that motivates the characters in a movie, that could be a different thing, without changing the movie.</p>
+</section>
+<section class="col">
+    <p>The internet is not what it used to be, and it's not what it will be.</p>
+    <p>I fully expect that most, if not all, of you will have careers that will span several iterations of the internet, several instances of it being one thing, and then being something else.</p>
+</section>
+<section class="col">
+    <p>I do strongly encourage you to get to know the history, and the weird corners of the internet.</p>
+</section>
+<section class="col">
+    <figure class="side-by" style="margin-top: .25rem;"><img src="/images/bincaf1.jpg" alt=""><img src="/images/bincaf2.jpg" alt=""><figcaption>Toronto's first internet café, The Binary Cafe and Hexadecimal Emporium, circa 1994.<br>Photos via <a href="https://scribble.com/jon/bincaf/" rel="noreferrer" target="_blank">Jon Van Oast<span class="show-for-sr"> Opens in a new window</span>.</a> </figcaption></figure>
+</section>
+<section class="col">
+    <p>I'm going to leave you with a short list of things I think are worth understanding and investigating&hellip;</p>
+</section>
+<section class="col">
+    <ul>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://ifdb.fanedit.org/">Fan edits<span class="show-for-sr"> Opens in a new window</span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Usenet">Usenet<span class="show-for-sr"> Opens in a new window</span></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat#:~:text=70%2C000.%5B7%5D-,Modern%20IRC,-%5Bedit%5D" target="_blank" rel="noopener noreferrer">IRC<span class="show-for-sr"> Opens in a new window</span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.crowdstrike.com/cybersecurity-101/the-dark-web-explained/deep-web-vs-dark-web/#:~:text=Simply%20put%2C%20the%20deep%20web,to%20provide%20even%20greater%20security.">The deep, and dark, web<span class="show-for-sr"> Opens in a new window</span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://www.wikihow.com/Watch-Star-Wars-on-Command-Prompt#:~:text=On%20Windows%2C%20open%20the%20Command,nl%20and%20pressing%20%E2%86%B5%20Enter%20.">Telnet<span class="show-for-sr"> Opens in a new window</span></a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="https://web.archive.org/web/20210903205100/http://youfellasleepwatchingadvd.com/">The Wayback Machine / You Fell Asleep Watching a DVD<span class="show-for-sr"> Opens in a new window</span></a></li>
+    </ul>
+</section>
+<section class="col">
+    <p>Oh, and if any of you need <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/p/CrMLHiqpCsJ/">free stuff<span class="show-for-sr"> Opens in a new window</span></a>&hellip;</p>
+</section>
+<a href="href" target="_blank" rel="noopener noreferrer">text<span class="show-for-sr"> Opens in a new window</span></a>
